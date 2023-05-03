@@ -454,6 +454,3 @@ if (controller.B.isPressed()) {
         sprites.destroy(mySprite3)
     }
 }
-game.onUpdate(function () {
-	
-})
