@@ -268,25 +268,6 @@ ddddd1dddd1111111b11b1111bbbddddbd11dd1dddddd1dddd1111111b11b1111bbbddddbd11dd1d
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 `;
-            case "OFYbYQ+AI7Yoh2qY-Z]f":
-            case "Snow":return img`
-. . . . . . . . . . . . . 
-. . . . . . . . . . . . . 
-. . f f f f f f f f . . . 
-. f f e e e e e e f f . . 
-. f e e e e e e e e f . . 
-f f e e e d d e e e f f . 
-f e e e d d d d e e e f . 
-f e e b f d d f b e e f . 
-f e e 1 8 d d 8 1 e e f . 
-f e e d d d d d d e e f . 
-f e e f d d d d f e e f . 
-f e f b 7 7 7 7 b f e f . 
-f d d 7 7 7 7 7 7 d d f . 
-f d d 6 6 6 6 6 6 d d f . 
-f f f f f f f f f f f f . 
-. . . f f . . f f . . . . 
-`;
             case "AQb^4;g1ucG9NNn61~":
             case "Road":return img`
 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
@@ -452,6 +433,25 @@ cee111111111eeeeeeeeeeeeeeeeeec..
 ...feef..feeec.............ceeec.
 ...ffff..feecc.............ceeec.
 .........fffc..............cccc..
+`;
+            case "OFYbYQ+AI7Yoh2qY-Z]f":
+            case "Snow":return img`
+. . . . . . . . . . . . . 
+. . . . . . . . . . . . . 
+. . f f f f f f f f . . . 
+. f f e e e e e e f f . . 
+. f e e e e e e e e f . . 
+f f e e e d d e e e f f . 
+f 1 e e d d d d e e e f . 
+f 1 e b f d d f b e e f . 
+f 3 e 1 8 d d 8 1 e e f . 
+f 3 e d d d d d d e e f . 
+f 3 e f d d d d f e e f . 
+f 3 f b 7 7 7 7 b f e f . 
+f d d 7 7 7 7 7 7 d d f . 
+f d d 6 6 6 6 6 6 d d f . 
+f f f f f f f f f f f f . 
+. . . f f . . f f . . . . 
 `;
         }
         return null;

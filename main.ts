@@ -1,11 +1,7 @@
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
-    let mySprite2: Sprite = null
-    let mySprite3: Sprite = null
     music.play(music.createSong(assets.song`Emty_Song`), music.PlaybackMode.UntilDone)
     scene.setBackgroundImage(assets.image`Road`)
-    mySprite3.setPosition(23, 71)
     mySprite4.setPosition(23, 71)
-    mySprite2.setPosition(123, 71)
 })
 let mySprite4: Sprite = null
 effects.starField.startScreenEffect()
