@@ -5,7 +5,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
 })
 let mySprite4: Sprite = null
 effects.starField.startScreenEffect()
-scene.setBackgroundImage(assets.image`green`)
+scene.setBackgroundImage(assets.image`Stage`)
 game.setDialogTextColor(15)
 game.showLongText("Press A to start", DialogLayout.Center)
 scene.setBackgroundImage(assets.image`backround`)
