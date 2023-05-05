@@ -126,8 +126,8 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
     mySprite4.setPosition(23, 71)
     mySprite2.setPosition(123, 71)
 })
-let mySprite2: Sprite = null
 let mySprite3: Sprite = null
+let mySprite2: Sprite = null
 let mySprite4: Sprite = null
 effects.starField.startScreenEffect()
 scene.setBackgroundImage(assets.image`green`)
@@ -275,30 +275,9 @@ mySprite4 = sprites.create(img`
     . . . f f . . f f . . . . 
     `, SpriteKind.Player)
 mySprite4.setPosition(123, 88)
-mySprite3 = sprites.create(img`
-    . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . 
-    . . f f f f f f f f . . . 
-    . f f e e e e e e f f . . 
-    . f e e e e e e e e f . . 
-    f f e e e d d e e e f f . 
-    f e e e d d d d e e e f . 
-    f e e b f d d f b e e f . 
-    . f d 1 8 d d 8 1 d f . . 
-    . f d d d d d d d d f . . 
-    f e f f d d d d f f e f . 
-    f e f b 7 7 7 7 b f e f . 
-    f d d 7 7 7 7 7 7 d d f . 
-    f d d 6 6 6 6 6 6 d d f . 
-    f f f f f f f f f f f f . 
-    . . . f f . . f f . . . . 
-    `, SpriteKind.Player)
-mySprite3.setPosition(23, 88)
 game.showLongText("Press A for Right or B for Left", DialogLayout.Top)
 mySprite4.setBounceOnWall(true)
-mySprite3.setBounceOnWall(true)
 controller.moveSprite(mySprite4, 100, 100)
-controller.moveSprite(mySprite3, 100, 100)
 info.setLife(100)
 mySprite2 = sprites.create(img`
     ..cccc.........
