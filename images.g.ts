@@ -311,25 +311,6 @@ cee111111111eeeeeeeeeeeeeeeeeec..
 ...ffff..feecc.............ceeec.
 .........fffc..............cccc..
 `;
-            case "OFYbYQ+AI7Yoh2qY-Z]f":
-            case "Snow":return img`
-. . . . . . . . . . . . . 
-. . . . . . . . . . . . . 
-. . f f f f f f f f . . . 
-. f f e e e e e e f f . . 
-. f e e e e e e e e f . . 
-f f e e e d d e e e f f . 
-f 1 e e d d d d e e e f . 
-f 1 e b f d d f b e e f . 
-f 3 e 1 8 d d 8 1 e e f . 
-f 3 e d d d d d d e e f . 
-f 3 e f d d d d f e e f . 
-f 3 f b 7 7 7 7 b f e f . 
-f d d 7 7 7 7 7 7 d d f . 
-f d d 6 6 6 6 6 6 d d f . 
-f f f f f f f f f f f f . 
-. . . f f . . f f . . . . 
-`;
             case "BB":
             case "Stage":return img`
 8888899999999999999999999999999999999998899998899998899999998888899999999999999999999999999999999998899999888899988988888999999999999999999999999999999999988999
@@ -452,6 +433,25 @@ f f f f f f f f f f f f .
 9999998988888eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee8888898999999
 999999898eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee898999999
 999999888eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee888999999
+`;
+            case "OFYbYQ+AI7Yoh2qY-Z]f":
+            case "Snow":return img`
+. . . . . . . . . . . . . 
+. . . . . . . . . . . . . 
+. . f f f f f f f f . . . 
+. f f e e e e e e f f . . 
+. f e e e e e e e e f . . 
+f f e e e d d e e e f f . 
+f 1 1 1 d d d d 1 1 1 f . 
+f 1 1 b f d d f b 1 1 f . 
+f 3 3 1 8 d d 8 1 3 3 f . 
+f 3 3 d d d d d d 3 3 f . 
+f 3 3 f d d d d f 3 3 f . 
+f 3 f b 7 7 7 7 b f 3 f . 
+f d d 7 7 7 7 7 7 d d f . 
+f d d 6 6 6 6 6 6 d d f . 
+f f f f f f f f f f f f . 
+. . . f f . . f f . . . . 
 `;
         }
         return null;
