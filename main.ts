@@ -275,7 +275,6 @@ mySprite4 = sprites.create(img`
     . . . f f . . f f . . . . 
     `, SpriteKind.Player)
 mySprite4.setPosition(123, 88)
-game.showLongText("Press A for Right or B for Left", DialogLayout.Top)
 mySprite4.setBounceOnWall(true)
 controller.moveSprite(mySprite4, 100, 100)
 info.setLife(100)
