@@ -1,5 +1,5 @@
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
-    music.play(music.createSong(assets.song`Emty_Song`), music.PlaybackMode.UntilDone)
+    music.play(music.createSong(assets.song`Empty_Song`), music.PlaybackMode.UntilDone)
     scene.setBackgroundImage(assets.image`Road`)
     mySprite4.setPosition(23, 71)
 })

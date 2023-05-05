@@ -3,25 +3,6 @@ namespace myImages {
 
     helpers._registerFactory("image", function(name: string) {
         switch(helpers.stringTrim(name)) {
-            case "image1":
-            case "myImage":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . 3 . . . . . . . . . . . 
-. . . 3 3 . . 3 . . . . . . . . 
-. . . 3 . . . . . 3 . . . . . . 
-. . . 3 . . . . . . . . . . . . 
-. . . 3 . . . 3 . . . 3 3 . . . 
-. . . 3 . . . . . . . 3 . . . . 
-. . . . 3 . . . . . 3 . . . . . 
-. . . . . 3 . . 3 3 . . . . . . 
-. . . . . . 3 3 3 . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`;
             case "c4n)/RD|?b":
             case "backround":return img`
 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
@@ -467,7 +448,7 @@ f f f f f f f f f f f f .
     helpers._registerFactory("song", function(name: string) {
         switch(helpers.stringTrim(name)) {
             case "_IEFvRGqraqb":
-            case "Emty_Song":return hex`00640004080700`;
+            case "Empty_Song":return hex`00640004080700`;
         }
         return null;
     })
