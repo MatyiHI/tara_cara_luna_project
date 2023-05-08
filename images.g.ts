@@ -466,23 +466,6 @@ cc66666666664c66e4e44e44e44feeee66c46666666666cc
 .....64eee444c66f4e44e44e44e44ee66c444eee46.....
 ......6ccc666c66e4e44e44e44e44ee66c666ccc6......
 `;
-            case "image4":
-            case "Yellow_Dog":return img`
-. . 4 4 4 . . . . 4 4 4 . . . . 
-. 4 5 5 5 e . . e 5 5 5 4 . . . 
-4 5 5 5 5 5 e e 5 5 5 5 5 4 . . 
-4 5 5 4 4 5 5 5 5 4 4 5 5 4 . . 
-e 5 4 4 5 5 5 5 5 5 4 4 5 e . . 
-. e e 5 5 5 5 5 5 5 5 e e . . . 
-. . e 5 f 5 5 5 5 f 5 e . . . . 
-. . f 5 5 5 4 4 5 5 5 f . . f f 
-. . f 4 5 5 f f 5 5 6 f . f 5 f 
-. . . f 6 6 6 6 6 6 4 4 f 5 5 f 
-. . . f 4 5 5 5 5 5 5 4 4 5 f . 
-. . . f 5 5 5 5 5 4 5 5 f f . . 
-. . . f 5 f f f 5 f f 5 f . . . 
-. . . f f . . f f . . f f . . . 
-`;
             case "image2":
             case "Winter_Tree_Background_Night":return img`
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -774,6 +757,23 @@ f 4 4 4 4 4 1 4 4 f 4 4 d f f f
 ........................
 ........................
 ........................
+`;
+            case "image4":
+            case "nun":return img`
+. . 4 4 4 . . . . 4 4 4 . . . . 
+. 4 5 5 5 e . . e 5 5 5 4 . . . 
+4 5 5 5 5 5 e e 5 5 5 5 5 4 . . 
+4 5 5 4 4 5 5 5 5 4 4 5 5 4 . . 
+e 5 4 4 5 5 5 5 5 5 4 4 5 e . . 
+. e e 5 5 5 5 5 5 5 5 e e . . . 
+. . e 5 f 5 5 5 5 f 5 e . . . . 
+. . f 5 5 5 4 4 5 5 5 f . . f f 
+. . f 4 5 5 f f 5 5 6 f . f 5 f 
+. . . f 6 6 6 6 6 6 4 4 f 5 5 f 
+. . . f 4 5 5 5 5 5 5 4 4 5 f . 
+. . . f 5 5 5 5 5 4 5 5 f f . . 
+. . . f 5 f f f 5 f f 5 f . . . 
+. . . f f . . f f . . f f . . . 
 `;
         }
         return null;
