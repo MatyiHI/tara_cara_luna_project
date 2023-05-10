@@ -126,6 +126,49 @@ ddddd1dddd1111111b11b1111bbbddddbd11dd1dddddd1dddd1111111b11b1111bbbddddbd11dd1d
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 `;
+            case "{S*EgQ3eo]cg!h|1sPAk":
+            case "Yuki":return img`
+bbbb........bbbb.................
+ceebb......bbeeb.................
+ceeebb....bbeeec.................
+cebeebccccbeebec.................
+cebbeebccbeebbec.................
+ce3beeeeeeeeb3ec.................
+ce33eeeeeeee33ec.................
+cee3eeeeeeee3eec.................
+ceeeeeee11eeeeec.................
+ceeeffe111effeec........bbbbbb...
+ceeeffe1111ffeec.......ceeeeeebb.
+ceeee1111111eeec......ceeeeeeeeb.
+ceee111fff111eec.....ceee111eeeeb
+ceeec11fff11eebc.....cee11111eeeb
+ceeecc111111cebc.....ce11dd111eeb
+ceeeeebbbccceebcc....cbddbbd11eec
+ceeeeeeeeeeeeeeebbccccbbdbbb11eec
+ceeeeeeeeeeeeeeeeeeeeeeeeebb1eeec
+ceeee1111eeeeeeeeeeeeeeeeeeebeeec
+ceee111111eeeeeeeeeeeeeeeeeeeeec.
+ceee1111111eeeeeeeeeeeeeeeeeeecc.
+cee11111111eeeeeeeeeeeeeeeeeeec..
+cee111111111eeeeeeeeeeeeeeeeeec..
+cee111111111eeeeeeeeeeeeeeeeeec..
+.fe111111111eeeeeeeeeeeeeeeeeec..
+.ff111111111eeeeeeeeeeeeeeeeeec..
+..fe11111111eeeeeeeeeeeeeeeeeec..
+...fe111111eeeeeee111111eeeeeec..
+...feee1111eeeeee11111111eeeeec..
+....feefffeeeeecccccccccceeeeec..
+....feef..feeec.....feef.ceeeec..
+....feef..feeec.....feef.cceeeec.
+....feef..feec.......fef..cceeec.
+....feef..feec.......feef..cceec.
+....feef..feec.......feef...ceec.
+....feef..feec......feeef...ceec.
+...feeef..feec......ffff....ceec.
+...feef..feeec.............ceeec.
+...ffff..feecc.............ceeec.
+.........fffc..............cccc..
+`;
             case "BB":
             case "Stage":return img`
 8888899999999999999999999999999999999998899998899998899999998888899999999999999999999999999999999998899999888899988988888999999999999999999999999999999999988999
@@ -779,66 +822,99 @@ e 5 4 4 5 5 5 5 5 5 4 4 5 e . .
 ........................
 `;
             case "image5":
-            case "Dark_Bubbles":return img`
-. . . . . . . . c c . . . . . . 
-. . . . . . . c 8 f c . . . . . 
-. . c c . . . c 8 8 c . . . . . 
-. c 8 f c . . c c c . . c c c . 
-. c 2 8 c . c c c c . c 8 8 f c 
-. c c c c c 8 8 f f c c 2 8 8 c 
-. . . . c 8 b 8 f f c c c c c . 
-. . . . c 7 2 8 8 8 c . . . . . 
-. . c c c 7 2 2 b 8 c . . . . . 
-. c 7 f c c 7 7 8 c c c c . . . 
-. c 7 7 c c c c c c 2 8 8 2 . . 
-. c c c c c c c . c 8 f f 8 c . 
-. . . c 7 7 f c . c 8 f f 8 c . 
-. . . c 7 7 7 c . c 2 8 8 2 c . 
-. . . . c c c . . . c c c c . . 
+            case "Main Character":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . f f f f f f f f . . . 
+. . . . f f e e e e e e f f . . 
+. . . . f e e e e e e e e f . . 
+. . . f f e e e d d e e e f f . 
+. . . f e e e d d d d e e e f . 
+. . . f e e b f d d f b e e f . 
+. . . f e e 1 8 d d 8 1 e e f . 
+. . . f e e d d d d d d e e f . 
+. . . f e e f d d d d f e e f . 
+. . . f e f b d d d d b f e f . 
+. . . f d d 7 7 7 7 7 7 d d f . 
+. . . f d d 6 6 6 6 6 6 d d f . 
+. . . f f f f f f f f f f f f . 
+. . . . . . f f . . f f . . . . 
+`;
+            case "R!`kcPfAN?]MW7IUx]6`":
+            case "enemy":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . d d d d d . . . . . 
+. . . . . d d d d d d d . . . . 
+. . . . d d d d d d d d d . . . 
+. . . . d d d d d d d d d . . . 
+. . . . d d f d d d f d d . . . 
+. . . . d d f d d d f d d . . . 
+. . . . d d d d d d d d d . . . 
+. . . . d d d d d d d d d . . . 
+. . . . d d d d d d d d d . . . 
+. . . . d d d d d d d d d . . . 
+`;
+            case "auY}IkZuvW(lZXgt*zH=":
+            case "projectile2":return img`
+. . . . . . . . b b . . . . . . 
+. . . . . . . b 9 1 b . . . . . 
+. . b b . . . b 9 9 b . . . . . 
+. b 9 1 b . . b b b . . b b b . 
+. b 3 9 b . b b b b . b 9 9 1 b 
+. b b b b b 9 9 1 1 b b 3 9 9 b 
+. . . . b 9 d 9 1 1 b b b b b . 
+. . . . b 5 3 9 9 9 b . . . . . 
+. . b b b 5 3 3 d 9 b . . . . . 
+. b 5 1 b b 5 5 9 b b b b . . . 
+. b 5 5 b b b b b b 3 9 9 3 . . 
+. b b b b b b b . b 9 1 1 9 b . 
+. . . b 5 5 1 b . b 9 1 1 9 b . 
+. . . b 5 5 5 b . b 3 9 9 3 b . 
+. . . . b b b . . . b b b b . . 
 . . . . . . . . . . . . . . . . 
 `;
-            case "{S*EgQ3eo]cg!h|1sPAk":
-            case "Yuki":return img`
-bbbb........bbbb.................
-ceebb......bbeeb.................
-ceeebb....bbeeec.................
-cebeebccccbeebec.................
-cebbeebccbeebbec.................
-ce3beeeeeeeeb3ec.................
-ce33eeeeeeee33ec.................
-cee3eeeeeeee3eec.................
-ceeeeeee11eeeeec.................
-ceeeffe111effeec........bbbbbb...
-ceeeffe1111ffeec.......ceeeeeebb.
-ceeee1111111eeec......ceeeeeeeeb.
-ceee111fff111eec.....ceee111eeeeb
-ceeec11fff11eebc.....cee11111eeeb
-ceeecc111111cebc.....ce11dd111eeb
-ceeeeebbbccceebcc....cbddbbd11eec
-ceeeeeeeeeeeeeeebbccccbbdbbb11eec
-ceeeeeeeeeeeeeeeeeeeeeeeeebb1eeec
-ceeee1111eeeeeeeeeeeeeeeeeeebeeec
-ceee111111eeeeeeeeeeeeeeeeeeeeec.
-ceee1111111eeeeeeeeeeeeeeeeeeecc.
-cee11111111eeeeeeeeeeeeeeeeeeec..
-cee111111111eeeeeeeeeeeeeeeeeec..
-cee111111111eeeeeeeeeeeeeeeeeec..
-.fe111111111eeeeeeeeeeeeeeeeeec..
-.ff111111111eeeeeeeeeeeeeeeeeec..
-..fe11111111eeeeeeeeeeeeeeeeeec..
-...fe111111eeeeeee111111eeeeeec..
-...feee1111eeeeee11111111eeeeec..
-....feefffeeeeecccccccccceeeeec..
-....feef..feeec.....feef.ceeeec..
-....feef..feeec.....feef.cceeeec.
-....feef..feec.......fef..cceeec.
-....feef..feec.......feef..cceec.
-....feef..feec.......feef...ceec.
-....feef..feec......feeef...ceec.
-...feeef..feec......ffff....ceec.
-...feef..feeec.............ceeec.
-...ffff..feecc.............ceeec.
-.........fffc..............cccc..
+            case "O[T#~`!^haJ]U$Sr3qzS":
+            case "Fire_Ball1":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . 4 4 . . . . . . . 
+. . . . . . 4 5 5 4 . . . . . . 
+. . . . . . 2 5 5 2 . . . . . . 
+. . . . . . . 2 2 . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "XS!9m{rvMl(Jvx?wL5Ek":
+            case "Bubbles_1":return img`
+. . . . . . . . b b . . . . . . 
+. . . . . . . b 9 1 b . . . . . 
+. . b b . . . b 9 9 b . . . . . 
+. b 9 1 b . . b b b . . b b b . 
+. b 3 9 b . b b b b . b 9 9 1 b 
+. b b b b b 9 9 1 1 b b 3 9 9 b 
+. . . . b 9 d 9 1 1 b b b b b . 
+. . . . b 5 3 9 9 9 b . . . . . 
+. . b b b 5 3 3 d 9 b . . . . . 
+. b 5 1 b b 5 5 9 b b b b . . . 
+. b 5 5 b b b b b b 3 9 9 3 . . 
+. b b b b b b b . b 9 1 1 9 b . 
+. . . b 5 5 1 b . b 9 1 1 9 b . 
+. . . b 5 5 5 b . b 3 9 9 3 b . 
+. . . . b b b . . . b b b b . . 
+. . . . . . . . . . . . . . . . 
 `;
         }
         return null;
