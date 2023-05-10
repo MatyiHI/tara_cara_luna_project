@@ -821,6 +821,25 @@ e 5 4 4 5 5 5 5 5 5 4 4 5 e . .
 ........................
 ........................
 `;
+            case "image5":
+            case "Dark_Bubbles":return img`
+. . . . . . . . c c . . . . . . 
+. . . . . . . c 8 f c . . . . . 
+. . c c . . . c 8 8 c . . . . . 
+. c 8 f c . . c c c . . c c c . 
+. c 2 8 c . c c c c . c 8 8 f c 
+. c c c c c 8 8 f f c c 2 8 8 c 
+. . . . c 8 b 8 f f c c c c c . 
+. . . . c 7 2 8 8 8 c . . . . . 
+. . c c c 7 2 2 b 8 c . . . . . 
+. c 7 f c c 7 7 8 c c c c . . . 
+. c 7 7 c c c c c c 2 8 8 2 . . 
+. c c c c c c c . c 8 f f 8 c . 
+. . . c 7 7 f c . c 8 f f 8 c . 
+. . . c 7 7 7 c . c 2 8 8 2 c . 
+. . . . c c c . . . c c c c . . 
+. . . . . . . . . . . . . . . . 
+`;
         }
         return null;
     })
