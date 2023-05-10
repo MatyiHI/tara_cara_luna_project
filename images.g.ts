@@ -821,6 +821,25 @@ e 5 4 4 5 5 5 5 5 5 4 4 5 e . .
 ........................
 ........................
 `;
+            case "image5":
+            case "Main Character":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . f f f f f f f f . . . 
+. . . . f f e e e e e e f f . . 
+. . . . f e e e e e e e e f . . 
+. . . f f e e e d d e e e f f . 
+. . . f e e e d d d d e e e f . 
+. . . f e e b f d d f b e e f . 
+. . . f e e 1 8 d d 8 1 e e f . 
+. . . f e e d d d d d d e e f . 
+. . . f e e f d d d d f e e f . 
+. . . f e f b d d d d b f e f . 
+. . . f d d 7 7 7 7 7 7 d d f . 
+. . . f d d 6 6 6 6 6 6 d d f . 
+. . . f f f f f f f f f f f f . 
+. . . . . . f f . . f f . . . . 
+`;
         }
         return null;
     })
