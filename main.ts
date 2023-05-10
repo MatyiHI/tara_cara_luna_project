@@ -97,7 +97,7 @@ let projectile: Sprite = null
 let mySprite4: Sprite = null
 let mySprite2: Sprite = null
 let mySprite: Sprite = null
-mySprite = sprites.create(assets.image`Dark_Bubbles`, SpriteKind.Player)
+mySprite = sprites.create(assets.image`Yuki`, SpriteKind.Player)
 effects.starField.startScreenEffect()
 scene.setBackgroundImage(assets.image`Stage`)
 game.setDialogTextColor(15)

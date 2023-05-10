@@ -126,49 +126,6 @@ ddddd1dddd1111111b11b1111bbbddddbd11dd1dddddd1dddd1111111b11b1111bbbddddbd11dd1d
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 `;
-            case "{S*EgQ3eo]cg!h|1sPAk":
-            case "Yuki":return img`
-bbbb........bbbb.................
-ceebb......bbeeb.................
-ceeebb....bbeeec.................
-cebeebccccbeebec.................
-cebbeebccbeebbec.................
-ce3beeeeeeeeb3ec.................
-ce33eeeeeeee33ec.................
-cee3eeeeeeee3eec.................
-ceeeeeee11eeeeec.................
-ceeeffe111effeec........bbbbbb...
-ceeeffe1111ffeec.......ceeeeeebb.
-ceeee1111111eeec......ceeeeeeeeb.
-ceee111fff111eec.....ceee111eeeeb
-ceeec11fff11eebc.....cee11111eeeb
-ceeecc111111cebc.....ce11dd111eeb
-ceeeeebbbccceebcc....cbddbbd11eec
-ceeeeeeeeeeeeeeebbccccbbdbbb11eec
-ceeeeeeeeeeeeeeeeeeeeeeeeebb1eeec
-ceeee1111eeeeeeeeeeeeeeeeeeebeeec
-ceee111111eeeeeeeeeeeeeeeeeeeeec.
-ceee1111111eeeeeeeeeeeeeeeeeeecc.
-cee11111111eeeeeeeeeeeeeeeeeeec..
-cee111111111eeeeeeeeeeeeeeeeeec..
-cee111111111eeeeeeeeeeeeeeeeeec..
-.fe111111111eeeeeeeeeeeeeeeeeec..
-.ff111111111eeeeeeeeeeeeeeeeeec..
-..fe11111111eeeeeeeeeeeeeeeeeec..
-...fe111111eeeeeee111111eeeeeec..
-...feee1111eeeeee11111111eeeeec..
-....feefffeeeeecccccccccceeeeec..
-....feef..feeec.....feef.ceeeec..
-....feef..feeec.....feef.cceeeec.
-....feef..feec.......fef..cceeec.
-....feef..feec.......feef..cceec.
-....feef..feec.......feef...ceec.
-....feef..feec......feeef...ceec.
-...feeef..feec......ffff....ceec.
-...feef..feeec.............ceeec.
-...ffff..feecc.............ceeec.
-.........fffc..............cccc..
-`;
             case "BB":
             case "Stage":return img`
 8888899999999999999999999999999999999998899998899998899999998888899999999999999999999999999999999998899999888899988988888999999999999999999999999999999999988999
@@ -839,6 +796,49 @@ e 5 4 4 5 5 5 5 5 5 4 4 5 e . .
 . . . c 7 7 7 c . c 2 8 8 2 c . 
 . . . . c c c . . . c c c c . . 
 . . . . . . . . . . . . . . . . 
+`;
+            case "{S*EgQ3eo]cg!h|1sPAk":
+            case "Yuki":return img`
+bbbb........bbbb.................
+ceebb......bbeeb.................
+ceeebb....bbeeec.................
+cebeebccccbeebec.................
+cebbeebccbeebbec.................
+ce3beeeeeeeeb3ec.................
+ce33eeeeeeee33ec.................
+cee3eeeeeeee3eec.................
+ceeeeeee11eeeeec.................
+ceeeffe111effeec........bbbbbb...
+ceeeffe1111ffeec.......ceeeeeebb.
+ceeee1111111eeec......ceeeeeeeeb.
+ceee111fff111eec.....ceee111eeeeb
+ceeec11fff11eebc.....cee11111eeeb
+ceeecc111111cebc.....ce11dd111eeb
+ceeeeebbbccceebcc....cbddbbd11eec
+ceeeeeeeeeeeeeeebbccccbbdbbb11eec
+ceeeeeeeeeeeeeeeeeeeeeeeeebb1eeec
+ceeee1111eeeeeeeeeeeeeeeeeeebeeec
+ceee111111eeeeeeeeeeeeeeeeeeeeec.
+ceee1111111eeeeeeeeeeeeeeeeeeecc.
+cee11111111eeeeeeeeeeeeeeeeeeec..
+cee111111111eeeeeeeeeeeeeeeeeec..
+cee111111111eeeeeeeeeeeeeeeeeec..
+.fe111111111eeeeeeeeeeeeeeeeeec..
+.ff111111111eeeeeeeeeeeeeeeeeec..
+..fe11111111eeeeeeeeeeeeeeeeeec..
+...fe111111eeeeeee111111eeeeeec..
+...feee1111eeeeee11111111eeeeec..
+....feefffeeeeecccccccccceeeeec..
+....feef..feeec.....feef.ceeeec..
+....feef..feeec.....feef.cceeeec.
+....feef..feec.......fef..cceeec.
+....feef..feec.......feef..cceec.
+....feef..feec.......feef...ceec.
+....feef..feec......feeef...ceec.
+...feeef..feec......ffff....ceec.
+...feef..feeec.............ceeec.
+...ffff..feecc.............ceeec.
+.........fffc..............cccc..
 `;
         }
         return null;
