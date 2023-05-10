@@ -2,7 +2,7 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Player, function (sprite, ot
     info.changeLifeBy(-1)
 })
 sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, otherSprite) {
-    info.changeLifeBy(-1)
+    info.changeLifeBy(mySprite2)
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
     info.player1.setLife(25)
@@ -23,7 +23,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
 let mySprite3: Sprite = null
 let projectile: Sprite = null
 let mySprite4: Sprite = null
-let mySprite2: Sprite = null
+let mySprite2 = 0
 let mySprite: Sprite = null
 mySprite = sprites.create(assets.image`Yuki`, SpriteKind.Player)
 effects.starField.startScreenEffect()
