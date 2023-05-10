@@ -1,9 +1,6 @@
 sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Player, function (sprite, otherSprite) {
     info.changeLifeBy(-1)
 })
-info.onLifeZero(function () {
-	
-})
 sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, otherSprite) {
     info.changeLifeBy(-1)
 })
@@ -12,7 +9,6 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
     mySprite.setPosition(70, 15)
     mySprite2.setPosition(66, 82)
     scene.setBackgroundImage(assets.image`Road`)
-    music.play(music.createSong(assets.song`First_Song`), music.PlaybackMode.UntilDone)
     for (let index = 0; index < 30; index++) {
         mySprite4 = sprites.create(img`
             . . . . . . . . . . . . . . . . 
@@ -94,6 +90,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
         projectile.follow(mySprite2, 20)
         pause(2000)
     }
+    music.play(music.createSong(assets.song`First_Song`), music.PlaybackMode.UntilDone)
 })
 let mySprite3: Sprite = null
 let projectile: Sprite = null
