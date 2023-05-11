@@ -10,15 +10,15 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
     mySprite2.setPosition(66, 82)
     scene.setBackgroundImage(assets.image`Road`)
     for (let index = 0; index < 30; index++) {
-        mySprite4 = sprites.create(assets.image`Fireball1`, SpriteKind.Projectile)
-        projectile = sprites.createProjectileFromSprite(assets.image`Fireball1`, mySprite, 100, 27)
+        mySprite4 = sprites.create(assets.image`what_2`, SpriteKind.Projectile)
+        projectile = sprites.createProjectileFromSprite(assets.image`What_3`, mySprite, 100, 27)
         projectile.follow(mySprite2, 20)
         pause(2000)
     }
     for (let index = 0; index < 34; index++) {
         info.setLife(25)
-        mySprite3 = sprites.create(assets.image`Bubble1`, SpriteKind.Projectile)
-        projectile = sprites.createProjectileFromSprite(assets.image`Bubble2`, mySprite2, 100, 27)
+        mySprite3 = sprites.create(assets.image`What_4`, SpriteKind.Projectile)
+        projectile = sprites.createProjectileFromSprite(assets.image`What_5`, mySprite2, 100, 27)
         projectile.follow(mySprite2, 20)
         pause(2000)
     }
@@ -36,7 +36,7 @@ game.setDialogTextColor(15)
 game.showLongText("Press A to start", DialogLayout.Center)
 scene.setBackgroundImage(assets.image`Winter_Tree_Background_Night`)
 game.setDialogTextColor(15)
-mySprite2 = sprites.create(assets.image`Tombstone`, SpriteKind.Enemy)
+mySprite2 = sprites.create(assets.image`what_1`, SpriteKind.Enemy)
 info.setLife(23)
 controller.moveSprite(mySprite, 100, 100)
 mySprite.setPosition(123, 88)
